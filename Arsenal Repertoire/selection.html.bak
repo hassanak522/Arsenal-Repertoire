@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Selection</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="selection.css">
+    <style>
+        h1{text-align: center;}
+		
+		
+		body {
+        background-image: url('images/download.jfif');
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: 100% 100%;
+		}
+    </style>
+</head>
+<body>
+    <section id="MP">
+        <div class="title-text">
+            <h1><strong><em>MAIN PAGE</em></strong></h1>
+            <hr>
+        </div>
+    </section>
+    <div class="container">
+        <div class="row">   
+            <div class="text-center">
+                <h1></h1>
+                <h5><a href="SoldierInfoDisplay.html"><input type="button" class="btn btn-primary"           value="       Soldier's Information       "></h5>
+                <h5><a href="AdminInfoDisplay.html"><input type="button" class="btn btn-primary"         value="    Admin's Information    "></h5>
+                <h5><a href="WeaponDisplay.php"><input type="button" class="btn btn-primary"            value="               Weapon information            "></h5>
+                <h5><a href="UniqueCode.php"><input type="button" class="btn btn-primary"         value="             Code Information            "></h5>
+                <h5><a href="firstindex.html"><input type="button" class="btn btn-primary"         value="       Back to Login Panel       "></h5>
+            </div>
+        </div>
+    </div>
+</body> 
+</html>
